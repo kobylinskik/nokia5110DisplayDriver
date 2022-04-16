@@ -1,1 +1,1 @@
-STM32 driver for Nokia 5110 SPI display
+Nokia 5110 Display Driver for STM32

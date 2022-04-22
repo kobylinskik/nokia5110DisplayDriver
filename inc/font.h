@@ -10,8 +10,11 @@ typedef struct {
     uint8_t width;
 } character_t;
 
+character_t letters[25];
+character_t digits[10];
+
 void createCharacters(character_t * letters, character_t * digits);
-void convertTextToPoints(char * text, character_t * letters, character_t * digits, point_t * buffer, uint8_t bufferSize, uint8_t xOffset, uint8_t yOffset);
-void convertTextToPointsHorizontal(char * text, character_t * letters, character_t * digits, point_t * buffer, uint8_t bufferSize, uint8_t xOffset, uint8_t yOffset);
+// void convertTextToPoints(char * text, character_t * letters, character_t * digits, point_t * buffer, uint8_t bufferSize, uint8_t xOffset, uint8_t yOffset);
+// void convertTextToPointsHorizontal(char * text, character_t * letters, character_t * digits, point_t * buffer, uint8_t bufferSize, uint8_t xOffset, uint8_t yOffset);
 
 #endif
